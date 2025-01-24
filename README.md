@@ -57,3 +57,11 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+npx ng generate interface model/reservation
+
+npx ng generate module reservation
+
+npx ng generate component my-reservations --module=reservation
+npx ng generate component new-reservation --module=reservation
+npx ng generate component reservation-detail --module=reservation
