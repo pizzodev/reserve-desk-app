@@ -1,7 +1,7 @@
 export interface ReservationDetail {
-  id: number;
-  deskId: 1,
-  date: Date,
+  id: string;
+  deskId: number,
+  date: string,
   name: string,
   surname: string,
   role: string
